@@ -441,6 +441,9 @@ p {
     .carousel-slide6 {
         animation: none !important;
     }
+    img[src$=".gif"] {
+    display: none;
+    }
 }
 .food_pics {
    padding: 20px;
